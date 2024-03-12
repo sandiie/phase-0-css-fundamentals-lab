@@ -3,3 +3,61 @@ body {
   height: 100%;
   margin: 0;
 }
+
+
+  dy{
+    background-color: beige;
+     height: 100%;
+     width: 100%;
+     margin: auto;
+}
+.topnav a {
+    background-color: aqua;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+}
+* {
+    text-align: center;
+    .box {display:flex;
+    flex-direction: row-reverse;}
+}
+.column1 {
+    width: 25%;
+    height: auto;
+    float: initial;
+}
+.column2{
+    width: 25%;
+    height: auto;
+    float: initial;
+}
+.column3{
+    width: 25%;
+    height: auto;
+    float: initial;
+}
+.column4{
+    width: 25%;
+    height: auto;
+    float: initial;
+}
+.details{
+    
+background-color: aqua;
+float: left;
+width: 100%;
+text-align: center;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.members{
+    display:flex;
+    flex-direction: column;
+    
+}
+.members div{
+    display:flex;
+}
+
